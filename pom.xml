@@ -6,7 +6,7 @@
 
     <groupId>com.workable.dropwizard</groupId>
     <artifactId>dropwizard-honeybadger</artifactId>
-    <version>1.0</version>
+    <version>1.1</version>
 
     <name>Dropwizard Hondeybadger Bundle</name>
     <description>
@@ -21,7 +21,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <dropwizard.version>0.7.1</dropwizard.version>
-        <workable-honeybadger.version>1.1</workable-honeybadger.version>
+        <workable-honeybadger.version>1.2</workable-honeybadger.version>
     </properties>
 
     <dependencies>
