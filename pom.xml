@@ -6,16 +6,21 @@
 
     <groupId>com.workable.dropwizard</groupId>
     <artifactId>dropwizard-honeybadger</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    <version>1.0</version>
 
     <name>Dropwizard Hondeybadger Bundle</name>
     <description>
         Addon bundle for Dropwizard to support logging to Honeybadger
     </description>
 
+    <scm>
+        <connection>scm:git:git://github.com/Workable/dropwizard-honeybadger.git</connection>
+        <url>https://github.com/Workable/dropwizard-honeybadger</url>
+    </scm>
+
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <dropwizard.version>0.7.0</dropwizard.version>
+        <dropwizard.version>0.7.1</dropwizard.version>
         <workable-honeybadger.version>1.1</workable-honeybadger.version>
     </properties>
 
@@ -59,6 +64,19 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+        <repository>
+            <id>aws-release</id>
+            <name>AWS Release Repository</name>
+            <url>s3://workable-private-repo/release</url>
+        </repository>
+        <snapshotRepository>
+            <id>aws-snapshot</id>
+            <name>AWS Snapshot Repository</name>
+            <url>s3://workable-private-repo/snapshot</url>
+        </snapshotRepository>
+    </distributionManagement>
 
 
 </project>
