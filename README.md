@@ -1,7 +1,7 @@
 Dropwizard Honeybadger
 ===============
 
-Addon for Dropwizard adding support for logging to [honeybadger](https://www.honeybadger.io).
+Addon for [Dropwizard](http://www.dropwizard.io/) adding support for logging to [honeybadger](https://www.honeybadger.io).
 
 
 Usage
