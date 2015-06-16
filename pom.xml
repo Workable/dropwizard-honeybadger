@@ -6,7 +6,7 @@
 
     <groupId>com.workable.dropwizard</groupId>
     <artifactId>dropwizard-honeybadger</artifactId>
-    <version>1.1</version>
+    <version>1.2-SNAPSHOT</version>
 
     <name>Dropwizard Hondeybadger Bundle</name>
     <description>
